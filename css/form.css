@@ -16,12 +16,14 @@ legend {
     margin-bottom: 10px;
     border-radius: 15px;
     transform: scale3d(4);
+    cursor: pointer;
 
   }
 
  
   button.btn.btn-primary {
    margin-left: 35%;
+   
   }
 
   input[type=text], select, textarea {
@@ -29,7 +31,7 @@ legend {
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    resize: vertical;
+    
   }
   
   label {
