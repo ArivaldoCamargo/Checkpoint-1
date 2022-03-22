@@ -1,0 +1,63 @@
+fieldset {
+  margin: 30px;
+  border: 4px rgb(89, 189, 235) solid;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+legend {
+  color: rgb(10, 145, 255);
+  font-size: 20px;
+  padding: 10px;
+}
+
+  input{
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    transform: scale3d(4);
+
+  }
+
+ 
+  button.btn.btn-primary {
+   margin-left: 35%;
+  }
+
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+
+  @media (max-width: 768px) {
+    button.btn.btn-primary {
+      margin-left: 20%;
+     }
+
+     .input #titulo{
+       width: 20px;
+     }
+    }
