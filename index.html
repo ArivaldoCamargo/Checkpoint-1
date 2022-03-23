@@ -83,25 +83,25 @@
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="https://img1.icarros.com/dbimg/imgnoticia/7/29991_1" width="100%"
-                                class="d-block h-100" alt="...">
-                            <div class="carousel-caption  d-md-block">
+                            <img src="img/camaro.jpg" width="100%" 
+                                class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
                                 <h5>Qual o Carro de seus sonhos?</h5>
                                 <p>Comece aqui a realizar seu sonho.</p>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img src="https://img1.icarros.com/dbimg/imgnoticia/7/29995_1" class="d-block w-100"
+                            <img src="img/carro3.jpg" class="d-block w-100"
                                 alt="...">
-                            <div class="carousel-caption  d-md-block">
+                            <div class="carousel-caption d-none d-md-block">
                                 <h5>Está procurando o carro perfeito para a sua vida?</h5>
                                 <p>Nós da AWM podemos te ajudar!</p>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img src="https://cdn.pixabay.com/photo/2016/09/06/13/37/maserati-gran-turismo-1649119_960_720.jpg"
+                            <img src="img/carro2.jpg"
                                 class="d-block w-100" alt="...">
-                            <div class="carousel-caption  d-md-block">
+                            <div class="carousel-caption d-none d-md-block">
                                 <h5>Participe da Promoção</h5>
                                 <p>Preencha o formulário para particpar.</p>
                             </div>
@@ -129,9 +129,11 @@
     </section>
 
     <!-- Botão para abrir o modal-->
-    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
-        QUERO GANHAR MEU CARRO
-    </button>
+    <<div class="w-100 d-flex justify-content-center">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+            QUERO GANHAR MEU CARRO
+        </button>
+    </div>
 
     <!-- Modal -->
     <div class="modal" id="myModal">
@@ -173,8 +175,10 @@
                                     placeholder="Digite o site da concessionária">
                             </div>
 
-                            <button type="submit" class="btn btn-primary" id="button_submit"
+                            <div class="w-100 d-flex justify-content-center">
+                                <button type="submit" class="btn btn-primary" id="button_submit"
                                 onclick="criarCard()">Enviar</button>
+                            </div>
                         </fieldset>
                     </form>
                 </div>
@@ -246,7 +250,7 @@
         </div>
 
 
-        <div class="container">
+        <div class="container  d-flex flex-column justify-content-center">
             <ul class="foote_bottom_ul_amrc">
                 <li><a href="#">Início</a></li>
                 <li><a href="#">Novos</a></li>
@@ -258,8 +262,8 @@
             <!--foote_bottom_ul_amrc ends here-->
             <p class="text-center">Copyright @2022 | Projetado pela a EQUIPE: <a href="#">AWM</a></p>
 
-            <ul class="social_footer_ul">
-                <li><a href="#" title="facebook"><i class="fab fa-facebook-f"></i></a></li>
+            <ul class="social_footer_ul d-flex justify-content-center">
+                <li class="padding-left-0"><a href="#" title="facebook"><i class="fab fa-facebook-f"></i></a></li>
                 <li><a href="#"title="Twitter"><i class="fab fa-twitter"></i></a></li>
                 <li><a href="#"title="Linkedin"><i class="fab fa-linkedin"></i></a></li>
                 <li><a href="#"title="Instagram"><i class="fab fa-instagram"></i></a></li>
