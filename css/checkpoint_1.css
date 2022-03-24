@@ -118,6 +118,13 @@ h5 {
     position: relative;
 }
 
+@media (max-width: 600px) {
+    
+.content-container{
+    margin-top: 45px;
+}
+
+}
 
 
 
