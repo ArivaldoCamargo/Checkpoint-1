@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="css/footer.css">
 </head>
 
-<body class="dark">
+<body>
 
     <header>
         <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
@@ -153,12 +153,12 @@
 
                             <div>
                                 <label for="titulo">Titulo</label>
-                                <input type="text" name="titulo" id="titulo" placeholder="Digite o nome do carro">
+                                <input type="text" name="titulo" id="titulo" placeholder="Digite o nome do carro" required>
                             </div>
 
                             <div>
                                 <label for="url">URL da imagem</label>
-                                <input type="text" name="url" id="url" placeholder="Digite o endereço da imagem">
+                                <input type="text" name="url" id="url" placeholder="Digite o endereço da imagem" required>
                             </div>
 
                             <div>
@@ -170,9 +170,8 @@
                             <div>
                                 <label for="url_con">Site</label>
                                 <input type="text" name="url_con" id="url_con"
-                                    placeholder="Digite o site da concessionária">
+                                    placeholder="Digite o site da concessionária"required    >
                             </div>
-
                             <div class="w-100 d-flex justify-content-center">
                                 <button type="submit" class="btn btn-primary" id="button_submit"
                                     onclick="criarCard()">Enviar</button>
